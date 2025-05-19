@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 97895.0
+python_gc_objects_collected_total{generation="0"} 101666.0
 python_gc_objects_collected_total{generation="1"} 13046.0
 python_gc_objects_collected_total{generation="2"} 0.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 83.0
+python_gc_collections_total{generation="0"} 85.0
 python_gc_collections_total{generation="1"} 7.0
 python_gc_collections_total{generation="2"} 0.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 0.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 29.0
+times_run_counter_total 30.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.747613579357116e+09
@@ -156,7 +156,7 @@ dune_status_land{sector="9",username="sardine"} 2500.0
 dune_status_land{sector="13",username="Allgeist Buzzell"} 3078.0
 dune_status_land{sector="15",username="Allgeist IX"} 2987.0
 dune_status_land{sector="7",username="Richie Ryan"} 3208.0
-dune_status_land{sector="13",username="Allgeist Chusuk"} 3074.0
+dune_status_land{sector="13",username="Allgeist Chusuk"} 2926.0
 dune_status_land{sector="13",username="Allgeist Poritrin"} 1967.0
 dune_status_land{sector="12",username="Allgeist Kolhar"} 2749.0
 dune_status_land{sector="7",username="Connor MacLeod"} 3063.0
@@ -166,7 +166,7 @@ dune_status_land{sector="16",username="Außenposten HZdI"} 2550.0
 dune_status_land{sector="10",username="Alfred"} 2726.0
 dune_status_land{sector="7",username="Duncan MacLeod"} 2739.0
 dune_status_land{sector="4",username="Majoran"} 2884.0
-dune_status_land{sector="14",username="Allgeist Naraj"} 2976.0
+dune_status_land{sector="14",username="Allgeist Naraj"} 2840.0
 dune_status_land{sector="10",username="Igor"} 2928.0
 dune_status_land{sector="9",username="Garviel Loken"} 2020.0
 dune_status_land{sector="4",username="Liebstöckel"} 2621.0
