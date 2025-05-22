@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
 python_gc_objects_collected_total{generation="0"} 1.269229e+06
-python_gc_objects_collected_total{generation="1"} 163540.0
+python_gc_objects_collected_total{generation="1"} 166586.0
 python_gc_objects_collected_total{generation="2"} 15180.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -11,14 +11,14 @@ python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
 python_gc_collections_total{generation="0"} 704.0
-python_gc_collections_total{generation="1"} 63.0
+python_gc_collections_total{generation="1"} 64.0
 python_gc_collections_total{generation="2"} 4.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 369.0
+times_run_counter_total 370.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.747613579357116e+09
@@ -159,7 +159,7 @@ dune_status_land{sector="15",username="Allgeist IX"} 2987.0
 dune_status_land{sector="7",username="Richie Ryan"} 3208.0
 dune_status_land{sector="13",username="Allgeist Chusuk"} 2926.0
 dune_status_land{sector="13",username="Allgeist Poritrin"} 1967.0
-dune_status_land{sector="12",username="Allgeist Kolhar"} 3130.0
+dune_status_land{sector="12",username="Allgeist Kolhar"} 2860.0
 dune_status_land{sector="7",username="Connor MacLeod"} 3063.0
 dune_status_land{sector="14",username="Allgeist Sikun"} 3448.0
 dune_status_land{sector="12",username="Allgeist Parmentier"} 2553.0
