@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 1.102874e+06
-python_gc_objects_collected_total{generation="1"} 142588.0
+python_gc_objects_collected_total{generation="0"} 1.104878e+06
+python_gc_objects_collected_total{generation="1"} 145207.0
 python_gc_objects_collected_total{generation="2"} 10976.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -10,15 +10,15 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 616.0
-python_gc_collections_total{generation="1"} 55.0
+python_gc_collections_total{generation="0"} 617.0
+python_gc_collections_total{generation="1"} 56.0
 python_gc_collections_total{generation="2"} 3.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 321.0
+times_run_counter_total 322.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.747613579357116e+09
@@ -167,7 +167,7 @@ dune_status_land{sector="16",username="Außenposten HZdI"} 2550.0
 dune_status_land{sector="10",username="Alfred"} 2726.0
 dune_status_land{sector="7",username="Duncan MacLeod"} 2739.0
 dune_status_land{sector="4",username="Majoran"} 2884.0
-dune_status_land{sector="14",username="Allgeist Naraj"} 2840.0
+dune_status_land{sector="14",username="Allgeist Naraj"} 2629.0
 dune_status_land{sector="10",username="Igor"} 2928.0
 dune_status_land{sector="9",username="Garviel Loken"} 2500.0
 dune_status_land{sector="4",username="Liebstöckel"} 2621.0
