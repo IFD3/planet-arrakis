@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 273289.0
-python_gc_objects_collected_total{generation="1"} 34676.0
+python_gc_objects_collected_total{generation="0"} 275293.0
+python_gc_objects_collected_total{generation="1"} 37295.0
 python_gc_objects_collected_total{generation="2"} 2997.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -10,66 +10,66 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 176.0
-python_gc_collections_total{generation="1"} 15.0
+python_gc_collections_total{generation="0"} 177.0
+python_gc_collections_total{generation="1"} 16.0
 python_gc_collections_total{generation="2"} 1.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 80.0
+times_run_counter_total 81.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.74812753507915e+09
 # HELP dune_status_power amount power
 # TYPE dune_status_power gauge
-dune_status_power{sector="3",username="Alan-a-Dale"} 2.936461e+06
+dune_status_power{sector="3",username="Alan-a-Dale"} 2.945641e+06
 dune_status_power{sector="3",username="Bruder Tuck"} 2.643531e+06
-dune_status_power{sector="3",username="Much Miller"} 2.028954e+06
-dune_status_power{sector="10",username="Deus Corrino VI"} 2.077614e+06
-dune_status_power{sector="3",username="Richard Löwenherz"} 1.830352e+06
+dune_status_power{sector="3",username="Much Miller"} 2.052192e+06
+dune_status_power{sector="10",username="Deus Corrino VI"} 2.085499e+06
+dune_status_power{sector="3",username="Richard Löwenherz"} 1.88804e+06
 dune_status_power{sector="2",username="Selbsthilfegrappa"} 1.638077e+06
 dune_status_power{sector="6",username="Ein bisschen Frieden"} 1.602071e+06
 dune_status_power{sector="5",username="Hans Wurst"} 1.694111e+06
 dune_status_power{sector="5",username="Dogma"} 1.531867e+06
 dune_status_power{sector="5",username="Lehrjahre sind keine Herrenjahre"} 1.518366e+06
-dune_status_power{sector="6",username="Ich will doch nur handeln..."} 1.369015e+06
-dune_status_power{sector="2",username="Bunny"} 1.170099e+06
-dune_status_power{sector="6",username="Bünzli"} 1.117164e+06
-dune_status_power{sector="8",username="Abtester"} 844472.0
+dune_status_power{sector="6",username="Ich will doch nur handeln..."} 1.374303e+06
+dune_status_power{sector="2",username="Bunny"} 1.141094e+06
+dune_status_power{sector="6",username="Bünzli"} 1.119745e+06
+dune_status_power{sector="8",username="Abtester"} 799759.0
 dune_status_power{sector="2",username="Waldeinsamkeit"} 1.080046e+06
 dune_status_power{sector="6",username="Sennenhund"} 1.068815e+06
-dune_status_power{sector="2",username="Zentrale 301"} 1.038947e+06
+dune_status_power{sector="2",username="Zentrale 301"} 1.055007e+06
 dune_status_power{sector="10",username="Pixxie"} 1.028887e+06
 dune_status_power{sector="5",username="Lutsch mich rund & nenn mich Bärbel"} 1.188613e+06
-dune_status_power{sector="3",username="Robin hood"} 1.004971e+06
+dune_status_power{sector="3",username="Robin hood"} 1.010591e+06
 dune_status_power{sector="6",username="Frankred"} 972907.0
-dune_status_power{sector="2",username="BattleBot"} 959576.0
-dune_status_power{sector="3",username="Little John Corrino"} 993939.0
-dune_status_power{sector="2",username="Supercalifragilisticexpialidocious"} 1.077395e+06
-dune_status_power{sector="12",username="Allgeist Korona"} 969308.0
-dune_status_power{sector="15",username="Allgeist Salusa Secundus"} 835319.0
+dune_status_power{sector="2",username="BattleBot"} 988395.0
+dune_status_power{sector="3",username="Little John Corrino"} 993605.0
+dune_status_power{sector="2",username="Supercalifragilisticexpialidocious"} 1.082595e+06
+dune_status_power{sector="12",username="Allgeist Korona"} 972365.0
+dune_status_power{sector="15",username="Allgeist Salusa Secundus"} 833648.0
 dune_status_power{sector="5",username="Betze"} 864228.0
 dune_status_power{sector="15",username="Allgeist Tleilax"} 822509.0
-dune_status_power{sector="7",username="Tessa Noelle"} 811644.0
+dune_status_power{sector="7",username="Tessa Noelle"} 812268.0
 dune_status_power{sector="12",username="Allgeist Lampadas"} 788383.0
-dune_status_power{sector="13",username="Allgeist Richese"} 784320.0
-dune_status_power{sector="16",username="Außenposten HZdH"} 762151.0
+dune_status_power{sector="13",username="Allgeist Richese"} 804019.0
+dune_status_power{sector="16",username="Außenposten HZdH"} 774967.0
 dune_status_power{sector="14",username="Allgeist Ipyr"} 747423.0
 dune_status_power{sector="16",username="Außenposten HZdO"} 732258.0
 dune_status_power{sector="14",username="Allgeist Sikun"} 751661.0
-dune_status_power{sector="9",username="sardine"} 713617.0
+dune_status_power{sector="9",username="sardine"} 713827.0
 dune_status_power{sector="10",username="Knecht"} 773014.0
 dune_status_power{sector="12",username="Allgeist Bela Tegeuse"} 723087.0
 dune_status_power{sector="13",username="Allgeist Wallach IX"} 792091.0
-dune_status_power{sector="10",username="James"} 797833.0
+dune_status_power{sector="10",username="James"} 797991.0
 dune_status_power{sector="15",username="Allgeist Tupile"} 664045.0
-dune_status_power{sector="12",username="Allgeist Harmonthep"} 702229.0
-dune_status_power{sector="13",username="Allgeist Giedi Prime"} 678361.0
+dune_status_power{sector="12",username="Allgeist Harmonthep"} 706067.0
+dune_status_power{sector="13",username="Allgeist Giedi Prime"} 681961.0
 dune_status_power{sector="14",username="Allgeist Erde"} 601362.0
 dune_status_power{sector="7",username="Darius"} 649801.0
-dune_status_power{sector="14",username="Allgeist Ecaz"} 693118.0
+dune_status_power{sector="14",username="Allgeist Ecaz"} 692890.0
 dune_status_power{sector="13",username="Allgeist Buzzell"} 632028.0
 dune_status_power{sector="7",username="Richie Ryan"} 713254.0
 dune_status_power{sector="10",username="Igor"} 619502.0
@@ -78,26 +78,26 @@ dune_status_power{sector="14",username="Allgeist Ginaz"} 592436.0
 dune_status_power{sector="10",username="Alfred"} 570727.0
 dune_status_power{sector="9",username="Garviel Loken"} 553891.0
 dune_status_power{sector="15",username="Allgeist IX"} 575691.0
-dune_status_power{sector="16",username="Außenposten HZdB"} 573557.0
+dune_status_power{sector="16",username="Außenposten HZdB"} 579942.0
 dune_status_power{sector="4",username="Salbei"} 596549.0
 dune_status_power{sector="12",username="Allgeist Kolhar"} 487026.0
 dune_status_power{sector="13",username="Allgeist Chusuk"} 524230.0
 dune_status_power{sector="15",username="Allgeist Anbus"} 560212.0
-dune_status_power{sector="4",username="Liebstöckel"} 479588.0
+dune_status_power{sector="4",username="Liebstöckel"} 479527.0
 dune_status_power{sector="12",username="Allgeist Parmentier"} 453410.0
-dune_status_power{sector="4",username="Majoran"} 520462.0
-dune_status_power{sector="16",username="Außenposten HZdI"} 470876.0
+dune_status_power{sector="4",username="Majoran"} 520656.0
+dune_status_power{sector="16",username="Außenposten HZdI"} 469899.0
 dune_status_power{sector="7",username="Connor MacLeod"} 502117.0
-dune_status_power{sector="13",username="Allgeist Poritrin"} 485923.0
+dune_status_power{sector="13",username="Allgeist Poritrin"} 498446.0
 dune_status_power{sector="7",username="Duncan MacLeod"} 430501.0
 dune_status_power{sector="4",username="Lavendel"} 400783.0
 dune_status_power{sector="14",username="Allgeist Naraj"} 387300.0
 dune_status_power{sector="4",username="Rosmarin"} 359438.0
-dune_status_power{sector="16",username="Außenposten HZdT"} 411012.0
-dune_status_power{sector="7",username="HIGlander"} 367093.0
-dune_status_power{sector="9",username="Munin"} 406308.0
-dune_status_power{sector="11",username="Ente"} 219299.0
-dune_status_power{sector="9",username="Ako"} 209097.0
+dune_status_power{sector="16",username="Außenposten HZdT"} 411112.0
+dune_status_power{sector="7",username="HIGlander"} 373690.0
+dune_status_power{sector="9",username="Munin"} 398523.0
+dune_status_power{sector="11",username="Ente"} 219317.0
+dune_status_power{sector="9",username="Ako"} 191178.0
 dune_status_power{sector="9",username="Tompery"} 161478.0
 dune_status_power{sector="6",username="Morgoth"} 155299.0
 dune_status_power{sector="8",username="Kweth Mels"} 105526.0
@@ -116,19 +116,19 @@ dune_status_land{sector="6",username="Ein bisschen Frieden"} 6000.0
 dune_status_land{sector="5",username="Hans Wurst"} 3629.0
 dune_status_land{sector="5",username="Dogma"} 2200.0
 dune_status_land{sector="5",username="Lehrjahre sind keine Herrenjahre"} 2887.0
-dune_status_land{sector="6",username="Ich will doch nur handeln..."} 4100.0
+dune_status_land{sector="6",username="Ich will doch nur handeln..."} 4300.0
 dune_status_land{sector="2",username="Bunny"} 3000.0
 dune_status_land{sector="6",username="Bünzli"} 4146.0
 dune_status_land{sector="8",username="Abtester"} 2000.0
 dune_status_land{sector="2",username="Waldeinsamkeit"} 4000.0
 dune_status_land{sector="6",username="Sennenhund"} 4091.0
-dune_status_land{sector="2",username="Zentrale 301"} 3715.0
+dune_status_land{sector="2",username="Zentrale 301"} 4015.0
 dune_status_land{sector="10",username="Pixxie"} 3595.0
 dune_status_land{sector="5",username="Lutsch mich rund & nenn mich Bärbel"} 2734.0
 dune_status_land{sector="3",username="Robin hood"} 3500.0
 dune_status_land{sector="6",username="Frankred"} 3561.0
 dune_status_land{sector="2",username="BattleBot"} 3000.0
-dune_status_land{sector="3",username="Little John Corrino"} 3815.0
+dune_status_land{sector="3",username="Little John Corrino"} 3836.0
 dune_status_land{sector="2",username="Supercalifragilisticexpialidocious"} 2850.0
 dune_status_land{sector="12",username="Allgeist Korona"} 3066.0
 dune_status_land{sector="15",username="Allgeist Salusa Secundus"} 3155.0
@@ -160,7 +160,7 @@ dune_status_land{sector="14",username="Allgeist Ginaz"} 2694.0
 dune_status_land{sector="10",username="Alfred"} 3000.0
 dune_status_land{sector="9",username="Garviel Loken"} 3000.0
 dune_status_land{sector="15",username="Allgeist IX"} 2987.0
-dune_status_land{sector="16",username="Außenposten HZdB"} 3263.0
+dune_status_land{sector="16",username="Außenposten HZdB"} 3521.0
 dune_status_land{sector="4",username="Salbei"} 2420.0
 dune_status_land{sector="12",username="Allgeist Kolhar"} 2688.0
 dune_status_land{sector="13",username="Allgeist Chusuk"} 2926.0
@@ -283,33 +283,33 @@ dune_status_rank{sector="5",username="Lehrjahre sind keine Herrenjahre"} 10.0
 dune_status_rank{sector="6",username="Ich will doch nur handeln..."} 11.0
 dune_status_rank{sector="2",username="Bunny"} 13.0
 dune_status_rank{sector="6",username="Bünzli"} 14.0
-dune_status_rank{sector="8",username="Abtester"} 26.0
-dune_status_rank{sector="2",username="Waldeinsamkeit"} 15.0
+dune_status_rank{sector="8",username="Abtester"} 30.0
+dune_status_rank{sector="2",username="Waldeinsamkeit"} 16.0
 dune_status_rank{sector="6",username="Sennenhund"} 17.0
 dune_status_rank{sector="2",username="Zentrale 301"} 18.0
 dune_status_rank{sector="10",username="Pixxie"} 19.0
 dune_status_rank{sector="5",username="Lutsch mich rund & nenn mich Bärbel"} 12.0
 dune_status_rank{sector="3",username="Robin hood"} 20.0
-dune_status_rank{sector="6",username="Frankred"} 22.0
-dune_status_rank{sector="2",username="BattleBot"} 24.0
+dune_status_rank{sector="6",username="Frankred"} 23.0
+dune_status_rank{sector="2",username="BattleBot"} 22.0
 dune_status_rank{sector="3",username="Little John Corrino"} 21.0
-dune_status_rank{sector="2",username="Supercalifragilisticexpialidocious"} 16.0
-dune_status_rank{sector="12",username="Allgeist Korona"} 23.0
-dune_status_rank{sector="15",username="Allgeist Salusa Secundus"} 27.0
+dune_status_rank{sector="2",username="Supercalifragilisticexpialidocious"} 15.0
+dune_status_rank{sector="12",username="Allgeist Korona"} 24.0
+dune_status_rank{sector="15",username="Allgeist Salusa Secundus"} 26.0
 dune_status_rank{sector="5",username="Betze"} 25.0
-dune_status_rank{sector="15",username="Allgeist Tleilax"} 28.0
-dune_status_rank{sector="7",username="Tessa Noelle"} 29.0
-dune_status_rank{sector="12",username="Allgeist Lampadas"} 32.0
-dune_status_rank{sector="13",username="Allgeist Richese"} 33.0
-dune_status_rank{sector="16",username="Außenposten HZdH"} 35.0
+dune_status_rank{sector="15",username="Allgeist Tleilax"} 27.0
+dune_status_rank{sector="7",username="Tessa Noelle"} 28.0
+dune_status_rank{sector="12",username="Allgeist Lampadas"} 33.0
+dune_status_rank{sector="13",username="Allgeist Richese"} 29.0
+dune_status_rank{sector="16",username="Außenposten HZdH"} 34.0
 dune_status_rank{sector="14",username="Allgeist Ipyr"} 37.0
 dune_status_rank{sector="16",username="Außenposten HZdO"} 38.0
 dune_status_rank{sector="14",username="Allgeist Sikun"} 36.0
 dune_status_rank{sector="9",username="sardine"} 40.0
-dune_status_rank{sector="10",username="Knecht"} 34.0
+dune_status_rank{sector="10",username="Knecht"} 35.0
 dune_status_rank{sector="12",username="Allgeist Bela Tegeuse"} 39.0
-dune_status_rank{sector="13",username="Allgeist Wallach IX"} 31.0
-dune_status_rank{sector="10",username="James"} 30.0
+dune_status_rank{sector="13",username="Allgeist Wallach IX"} 32.0
+dune_status_rank{sector="10",username="James"} 31.0
 dune_status_rank{sector="15",username="Allgeist Tupile"} 45.0
 dune_status_rank{sector="12",username="Allgeist Harmonthep"} 42.0
 dune_status_rank{sector="13",username="Allgeist Giedi Prime"} 44.0
@@ -323,10 +323,10 @@ dune_status_rank{sector="15",username="Allgeist Gangishree"} 49.0
 dune_status_rank{sector="14",username="Allgeist Ginaz"} 52.0
 dune_status_rank{sector="10",username="Alfred"} 55.0
 dune_status_rank{sector="9",username="Garviel Loken"} 57.0
-dune_status_rank{sector="15",username="Allgeist IX"} 53.0
-dune_status_rank{sector="16",username="Außenposten HZdB"} 54.0
+dune_status_rank{sector="15",username="Allgeist IX"} 54.0
+dune_status_rank{sector="16",username="Außenposten HZdB"} 53.0
 dune_status_rank{sector="4",username="Salbei"} 51.0
-dune_status_rank{sector="12",username="Allgeist Kolhar"} 61.0
+dune_status_rank{sector="12",username="Allgeist Kolhar"} 62.0
 dune_status_rank{sector="13",username="Allgeist Chusuk"} 58.0
 dune_status_rank{sector="15",username="Allgeist Anbus"} 56.0
 dune_status_rank{sector="4",username="Liebstöckel"} 63.0
@@ -334,14 +334,14 @@ dune_status_rank{sector="12",username="Allgeist Parmentier"} 65.0
 dune_status_rank{sector="4",username="Majoran"} 59.0
 dune_status_rank{sector="16",username="Außenposten HZdI"} 64.0
 dune_status_rank{sector="7",username="Connor MacLeod"} 60.0
-dune_status_rank{sector="13",username="Allgeist Poritrin"} 62.0
+dune_status_rank{sector="13",username="Allgeist Poritrin"} 61.0
 dune_status_rank{sector="7",username="Duncan MacLeod"} 66.0
-dune_status_rank{sector="4",username="Lavendel"} 69.0
+dune_status_rank{sector="4",username="Lavendel"} 68.0
 dune_status_rank{sector="14",username="Allgeist Naraj"} 70.0
 dune_status_rank{sector="4",username="Rosmarin"} 72.0
 dune_status_rank{sector="16",username="Außenposten HZdT"} 67.0
 dune_status_rank{sector="7",username="HIGlander"} 71.0
-dune_status_rank{sector="9",username="Munin"} 68.0
+dune_status_rank{sector="9",username="Munin"} 69.0
 dune_status_rank{sector="11",username="Ente"} 73.0
 dune_status_rank{sector="9",username="Ako"} 74.0
 dune_status_rank{sector="9",username="Tompery"} 75.0
