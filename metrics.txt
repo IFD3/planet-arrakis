@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 163964.0
+python_gc_objects_collected_total{generation="0"} 167924.0
 python_gc_objects_collected_total{generation="1"} 24446.0
 python_gc_objects_collected_total{generation="2"} 0.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 114.0
+python_gc_collections_total{generation="0"} 116.0
 python_gc_collections_total{generation="1"} 10.0
 python_gc_collections_total{generation="2"} 0.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 0.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 43.0
+times_run_counter_total 44.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7505771584033484e+09
@@ -135,7 +135,7 @@ dune_status_land{sector="2",username="Bunny"} 5000.0
 dune_status_land{sector="6",username="Frankred"} 4610.0
 dune_status_land{sector="2",username="Zentrale 301"} 5785.0
 dune_status_land{sector="10",username="Pixxie"} 5486.0
-dune_status_land{sector="2",username="Selbsthilfegrappa"} 4500.0
+dune_status_land{sector="2",username="Selbsthilfegrappa"} 4330.0
 dune_status_land{sector="3",username="Little John Corrino"} 6250.0
 dune_status_land{sector="9",username="sardine"} 4902.0
 dune_status_land{sector="9",username="Garviel Loken"} 4500.0
