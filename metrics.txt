@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 315020.0
+python_gc_objects_collected_total{generation="0"} 318977.0
 python_gc_objects_collected_total{generation="1"} 48428.0
 python_gc_objects_collected_total{generation="2"} 3954.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 191.0
+python_gc_collections_total{generation="0"} 193.0
 python_gc_collections_total{generation="1"} 17.0
 python_gc_collections_total{generation="2"} 1.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 1.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 83.0
+times_run_counter_total 84.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7505771584033484e+09
@@ -149,7 +149,7 @@ dune_status_land{sector="4",username="Salbei"} 3960.0
 dune_status_land{sector="5",username="Dogma"} 2200.0
 dune_status_land{sector="13",username="Allgeist Giedi Prime"} 3997.0
 dune_status_land{sector="7",username="Connor MacLeod"} 4069.0
-dune_status_land{sector="14",username="Allgeist Ipyr"} 5314.0
+dune_status_land{sector="14",username="Allgeist Ipyr"} 4924.0
 dune_status_land{sector="4",username="Liebstöckel"} 3951.0
 dune_status_land{sector="15",username="Allgeist Salusa Secundus"} 3755.0
 dune_status_land{sector="12",username="Allgeist Bela Tegeuse"} 4347.0
