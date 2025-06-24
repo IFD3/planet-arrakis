@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 4461.0
-python_gc_objects_collected_total{generation="1"} 0.0
+python_gc_objects_collected_total{generation="0"} 8183.0
+python_gc_objects_collected_total{generation="1"} 662.0
 python_gc_objects_collected_total{generation="2"} 0.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -10,15 +10,15 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 33.0
-python_gc_collections_total{generation="1"} 2.0
+python_gc_collections_total{generation="0"} 35.0
+python_gc_collections_total{generation="1"} 3.0
 python_gc_collections_total{generation="2"} 0.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 1.0
+times_run_counter_total 2.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.750777229448648e+09
@@ -159,7 +159,7 @@ dune_status_land{sector="15",username="Allgeist Salusa Secundus"} 4266.0
 dune_status_land{sector="13",username="Allgeist Wallach IX"} 4225.0
 dune_status_land{sector="15",username="Allgeist Gangishree"} 4696.0
 dune_status_land{sector="12",username="Allgeist Korona"} 3534.0
-dune_status_land{sector="9",username="Munin"} 4550.0
+dune_status_land{sector="9",username="Munin"} 4300.0
 dune_status_land{sector="16",username="Außenposten HZdO"} 3456.0
 dune_status_land{sector="14",username="Allgeist Ginaz"} 3642.0
 dune_status_land{sector="15",username="Allgeist Tupile"} 3089.0
