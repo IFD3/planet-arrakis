@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 102268.0
+python_gc_objects_collected_total{generation="0"} 106226.0
 python_gc_objects_collected_total{generation="1"} 14581.0
 python_gc_objects_collected_total{generation="2"} 0.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 83.0
+python_gc_collections_total{generation="0"} 85.0
 python_gc_collections_total{generation="1"} 7.0
 python_gc_collections_total{generation="2"} 0.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 0.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 27.0
+times_run_counter_total 28.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7508855519648504e+09
@@ -155,7 +155,7 @@ dune_status_land{sector="15",username="Allgeist Salusa Secundus"} 4266.0
 dune_status_land{sector="5",username="Dogma"} 2200.0
 dune_status_land{sector="14",username="Allgeist Ipyr"} 4651.0
 dune_status_land{sector="13",username="Allgeist Wallach IX"} 4225.0
-dune_status_land{sector="7",username="Tessa Noelle"} 5218.0
+dune_status_land{sector="7",username="Tessa Noelle"} 4879.0
 dune_status_land{sector="15",username="Allgeist Gangishree"} 4696.0
 dune_status_land{sector="16",username="Außenposten HZdO"} 4033.0
 dune_status_land{sector="7",username="HIGlander"} 5199.0
