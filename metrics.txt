@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 48560.0
+python_gc_objects_collected_total{generation="0"} 52646.0
 python_gc_objects_collected_total{generation="1"} 7479.0
 python_gc_objects_collected_total{generation="2"} 0.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 56.0
+python_gc_collections_total{generation="0"} 58.0
 python_gc_collections_total{generation="1"} 5.0
 python_gc_collections_total{generation="2"} 0.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 0.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 13.0
+times_run_counter_total 14.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7508855519648504e+09
@@ -162,7 +162,7 @@ dune_status_land{sector="7",username="HIGlander"} 5128.0
 dune_status_land{sector="7",username="Richie Ryan"} 4572.0
 dune_status_land{sector="12",username="Allgeist Korona"} 3661.0
 dune_status_land{sector="14",username="Allgeist Ginaz"} 3895.0
-dune_status_land{sector="14",username="Allgeist Sikun"} 4299.0
+dune_status_land{sector="14",username="Allgeist Sikun"} 3908.0
 dune_status_land{sector="12",username="Allgeist Kolhar"} 3970.0
 dune_status_land{sector="14",username="Allgeist Naraj"} 3725.0
 dune_status_land{sector="15",username="Allgeist Tupile"} 3442.0
@@ -174,7 +174,7 @@ dune_status_land{sector="15",username="Allgeist Anbus"} 3760.0
 dune_status_land{sector="9",username="Karol"} 3797.0
 dune_status_land{sector="4",username="Rosmarin"} 2500.0
 dune_status_land{sector="16",username="Außenposten HZdB"} 3141.0
-dune_status_land{sector="12",username="Allgeist Lampadas"} 4378.0
+dune_status_land{sector="12",username="Allgeist Lampadas"} 3969.0
 dune_status_land{sector="13",username="Allgeist Poritrin"} 2755.0
 dune_status_land{sector="12",username="Allgeist Harmonthep"} 2981.0
 dune_status_land{sector="12",username="Allgeist Parmentier"} 2823.0
