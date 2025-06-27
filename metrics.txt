@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 74610.0
+python_gc_objects_collected_total{generation="0"} 78568.0
 python_gc_objects_collected_total{generation="1"} 11135.0
 python_gc_objects_collected_total{generation="2"} 0.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 69.0
+python_gc_collections_total{generation="0"} 71.0
 python_gc_collections_total{generation="1"} 6.0
 python_gc_collections_total{generation="2"} 0.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 0.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 20.0
+times_run_counter_total 21.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7510432648483083e+09
@@ -161,7 +161,7 @@ dune_status_land{sector="13",username="Allgeist Wallach IX"} 4225.0
 dune_status_land{sector="14",username="Allgeist Ipyr"} 4651.0
 dune_status_land{sector="7",username="Richie Ryan"} 4572.0
 dune_status_land{sector="15",username="Allgeist Gangishree"} 4696.0
-dune_status_land{sector="12",username="Allgeist Korona"} 3661.0
+dune_status_land{sector="12",username="Allgeist Korona"} 3471.0
 dune_status_land{sector="7",username="Tessa Noelle"} 4879.0
 dune_status_land{sector="14",username="Allgeist Ecaz"} 4036.0
 dune_status_land{sector="14",username="Allgeist Sikun"} 3908.0
