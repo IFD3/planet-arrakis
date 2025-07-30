@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 522917.0
+python_gc_objects_collected_total{generation="0"} 526655.0
 python_gc_objects_collected_total{generation="1"} 67369.0
 python_gc_objects_collected_total{generation="2"} 7006.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 306.0
+python_gc_collections_total{generation="0"} 308.0
 python_gc_collections_total{generation="1"} 27.0
 python_gc_collections_total{generation="2"} 2.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 2.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 151.0
+times_run_counter_total 152.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7537550824186845e+09
@@ -105,6 +105,7 @@ dune_status_power{sector="9",username="Kimalth Prelion"} 47972.0
 dune_status_power{sector="10",username="Sanius"} 25603.0
 dune_status_power{sector="1",username="SP8472"} 4839.0
 dune_status_power{sector="10",username="Thoinar"} 13826.0
+dune_status_power{sector="10",username="Elintirn"} 7526.0
 # HELP dune_status_land amount land
 # TYPE dune_status_land gauge
 dune_status_land{sector="4",username="Partykanone"} 3750.0
@@ -188,6 +189,7 @@ dune_status_land{sector="9",username="Kimalth Prelion"} 913.0
 dune_status_land{sector="10",username="Sanius"} 400.0
 dune_status_land{sector="1",username="SP8472"} 100.0
 dune_status_land{sector="10",username="Thoinar"} 200.0
+dune_status_land{sector="10",username="Elintirn"} 100.0
 # HELP dune_status_sector sector number
 # TYPE dune_status_sector gauge
 dune_status_sector{sector="4",username="Partykanone"} 4.0
@@ -271,6 +273,7 @@ dune_status_sector{sector="9",username="Kimalth Prelion"} 9.0
 dune_status_sector{sector="10",username="Sanius"} 10.0
 dune_status_sector{sector="1",username="SP8472"} 1.0
 dune_status_sector{sector="10",username="Thoinar"} 10.0
+dune_status_sector{sector="10",username="Elintirn"} 10.0
 # HELP dune_status_rank sector number
 # TYPE dune_status_rank gauge
 dune_status_rank{sector="4",username="Partykanone"} 1.0
@@ -347,10 +350,11 @@ dune_status_rank{sector="1",username="Karl Napf der abwaschbare"} 71.0
 dune_status_rank{sector="8",username="Carter"} 74.0
 dune_status_rank{sector="4",username="Frankred"} 72.0
 dune_status_rank{sector="10",username="Arannoen"} 60.0
-dune_status_rank{sector="15",username="Allgeist Junction"} 77.0
+dune_status_rank{sector="15",username="Allgeist Junction"} 76.0
 dune_status_rank{sector="10",username="Pasania"} 76.0
 dune_status_rank{sector="9",username="Gerato"} 75.0
 dune_status_rank{sector="9",username="Kimalth Prelion"} 67.0
-dune_status_rank{sector="10",username="Sanius"} 78.0
+dune_status_rank{sector="10",username="Sanius"} 77.0
 dune_status_rank{sector="1",username="SP8472"} 80.0
-dune_status_rank{sector="10",username="Thoinar"} 79.0
+dune_status_rank{sector="10",username="Thoinar"} 78.0
+dune_status_rank{sector="10",username="Elintirn"} 79.0
