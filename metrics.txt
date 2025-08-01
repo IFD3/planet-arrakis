@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 1.060099e+06
+python_gc_objects_collected_total{generation="0"} 1.063873e+06
 python_gc_objects_collected_total{generation="1"} 139085.0
 python_gc_objects_collected_total{generation="2"} 11449.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 590.0
+python_gc_collections_total{generation="0"} 592.0
 python_gc_collections_total{generation="1"} 53.0
 python_gc_collections_total{generation="2"} 3.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 3.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 307.0
+times_run_counter_total 308.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7537550824186845e+09
@@ -327,34 +327,34 @@ dune_status_rank{sector="8",username="Mitchell"} 54.0
 dune_status_rank{sector="13",username="Allgeist Salusa Secundus"} 49.0
 dune_status_rank{sector="10",username="pwnville"} 57.0
 dune_status_rank{sector="14",username="Allgeist Chusuk"} 43.0
-dune_status_rank{sector="14",username="Allgeist Anbus"} 65.0
-dune_status_rank{sector="14",username="Allgeist Gansireed"} 69.0
+dune_status_rank{sector="14",username="Allgeist Anbus"} 64.0
+dune_status_rank{sector="14",username="Allgeist Gansireed"} 68.0
 dune_status_rank{sector="11",username="Allgeist Bela Tegeuse"} 52.0
-dune_status_rank{sector="8",username="Maldoran"} 72.0
+dune_status_rank{sector="8",username="Maldoran"} 71.0
 dune_status_rank{sector="10",username="Thomm"} 61.0
 dune_status_rank{sector="12",username="Allgeist Rossak"} 44.0
-dune_status_rank{sector="8",username="Tealc"} 70.0
-dune_status_rank{sector="11",username="Allgeist Lernaeus"} 67.0
-dune_status_rank{sector="9",username="Herodot"} 68.0
+dune_status_rank{sector="8",username="Tealc"} 69.0
+dune_status_rank{sector="11",username="Allgeist Lernaeus"} 66.0
+dune_status_rank{sector="9",username="Herodot"} 67.0
 dune_status_rank{sector="14",username="Allgeist Richese"} 50.0
-dune_status_rank{sector="14",username="Allgeist Corrin"} 73.0
+dune_status_rank{sector="14",username="Allgeist Corrin"} 72.0
 dune_status_rank{sector="14",username="Allgeist Naraj"} 35.0
-dune_status_rank{sector="12",username="Allgeist Buzzell"} 64.0
+dune_status_rank{sector="12",username="Allgeist Buzzell"} 63.0
 dune_status_rank{sector="12",username="Allgeist Erde"} 60.0
 dune_status_rank{sector="15",username="Allgeist Poritrin"} 58.0
-dune_status_rank{sector="9",username="retrofan100"} 76.0
-dune_status_rank{sector="11",username="Allgeist Muritan"} 66.0
+dune_status_rank{sector="9",username="retrofan100"} 75.0
+dune_status_rank{sector="11",username="Allgeist Muritan"} 65.0
 dune_status_rank{sector="12",username="Allgeist Gamma Gruis"} 56.0
 dune_status_rank{sector="4",username="Liebesgranate"} 63.0
 dune_status_rank{sector="1",username="Karl Napf der abwaschbare"} 71.0
 dune_status_rank{sector="8",username="Carter"} 55.0
-dune_status_rank{sector="4",username="Frankred"} 77.0
+dune_status_rank{sector="4",username="Frankred"} 76.0
 dune_status_rank{sector="10",username="Arannoen"} 62.0
-dune_status_rank{sector="15",username="Allgeist Junction"} 78.0
+dune_status_rank{sector="15",username="Allgeist Junction"} 77.0
 dune_status_rank{sector="10",username="Pasania"} 76.0
-dune_status_rank{sector="9",username="Gerato"} 75.0
+dune_status_rank{sector="9",username="Gerato"} 74.0
 dune_status_rank{sector="9",username="Kimalth Prelion"} 59.0
-dune_status_rank{sector="10",username="Sanius"} 74.0
+dune_status_rank{sector="10",username="Sanius"} 73.0
 dune_status_rank{sector="1",username="SP8472"} 80.0
-dune_status_rank{sector="10",username="Thoinar"} 71.0
-dune_status_rank{sector="10",username="Elintirn"} 79.0
+dune_status_rank{sector="10",username="Thoinar"} 70.0
+dune_status_rank{sector="10",username="Elintirn"} 78.0
