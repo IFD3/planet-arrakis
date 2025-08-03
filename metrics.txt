@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 1.769589e+06
+python_gc_objects_collected_total{generation="0"} 1.773153e+06
 python_gc_objects_collected_total{generation="1"} 232160.0
 python_gc_objects_collected_total{generation="2"} 20177.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 976.0
+python_gc_collections_total{generation="0"} 978.0
 python_gc_collections_total{generation="1"} 88.0
 python_gc_collections_total{generation="2"} 5.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 5.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 519.0
+times_run_counter_total 520.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7537550824186845e+09
@@ -120,7 +120,7 @@ dune_status_land{sector="3",username="Psychedelic Pussycat"} 2260.0
 dune_status_land{sector="5",username="Inu Yasha"} 1700.0
 dune_status_land{sector="3",username="Schwingelnatter"} 2000.0
 dune_status_land{sector="7",username="Nippel"} 2000.0
-dune_status_land{sector="3",username="Swinguin"} 3078.0
+dune_status_land{sector="3",username="Swinguin"} 2847.0
 dune_status_land{sector="3",username="Lord SwingAlot"} 2500.0
 dune_status_land{sector="4",username="Rosinenbomber"} 3553.0
 dune_status_land{sector="5",username="Captain Future"} 2000.0
@@ -132,7 +132,7 @@ dune_status_land{sector="2",username="Riiicholaa"} 2197.0
 dune_status_land{sector="4",username="Konfettipistole"} 2300.0
 dune_status_land{sector="2",username="Sardine"} 2250.0
 dune_status_land{sector="6",username="Maizabdo"} 1500.0
-dune_status_land{sector="5",username="Saber Rider"} 1700.0
+dune_status_land{sector="5",username="Saber Rider"} 1661.0
 dune_status_land{sector="11",username="Allgeist Gamont"} 1066.0
 dune_status_land{sector="15",username="Allgeist Ipyr"} 1643.0
 dune_status_land{sector="2",username="Ako"} 1800.0
