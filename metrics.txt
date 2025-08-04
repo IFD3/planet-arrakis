@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 1.966993e+06
-python_gc_objects_collected_total{generation="1"} 259820.0
+python_gc_objects_collected_total{generation="0"} 1.968553e+06
+python_gc_objects_collected_total{generation="1"} 262586.0
 python_gc_objects_collected_total{generation="2"} 20177.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -10,15 +10,15 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 1088.0
-python_gc_collections_total{generation="1"} 98.0
+python_gc_collections_total{generation="0"} 1089.0
+python_gc_collections_total{generation="1"} 99.0
 python_gc_collections_total{generation="2"} 5.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 580.0
+times_run_counter_total 581.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7537550824186845e+09
@@ -133,7 +133,7 @@ dune_status_land{sector="4",username="Konfettipistole"} 2300.0
 dune_status_land{sector="2",username="Sardine"} 2500.0
 dune_status_land{sector="6",username="Maizabdo"} 1500.0
 dune_status_land{sector="5",username="Saber Rider"} 1700.0
-dune_status_land{sector="11",username="Allgeist Gamont"} 2361.0
+dune_status_land{sector="11",username="Allgeist Gamont"} 2220.0
 dune_status_land{sector="15",username="Allgeist Ipyr"} 1643.0
 dune_status_land{sector="2",username="Ako"} 1800.0
 dune_status_land{sector="7",username="Ixiria"} 2020.0
