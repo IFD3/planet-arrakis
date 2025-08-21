@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 855674.0
+python_gc_objects_collected_total{generation="0"} 861670.0
 python_gc_objects_collected_total{generation="1"} 111773.0
 python_gc_objects_collected_total{generation="2"} 7076.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 470.0
+python_gc_collections_total{generation="0"} 473.0
 python_gc_collections_total{generation="1"} 42.0
 python_gc_collections_total{generation="2"} 2.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 2.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 241.0
+times_run_counter_total 242.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7555844644023056e+09
@@ -106,6 +106,7 @@ dune_status_power{sector="6",username="Giedi"} 90468.0
 dune_status_power{sector="9",username="retrofan100"} 53897.0
 dune_status_power{sector="6",username="Sonos"} 29526.0
 dune_status_power{sector="9",username="pups"} 37065.0
+dune_status_power{sector="2",username="Dies Irae"} 536170.0
 # HELP dune_status_land amount land
 # TYPE dune_status_land gauge
 dune_status_land{sector="7",username="Nippel"} 3689.0
@@ -147,7 +148,7 @@ dune_status_land{sector="10",username="Thoinar"} 3740.0
 dune_status_land{sector="10",username="Elintirn"} 3679.0
 dune_status_land{sector="8",username="Mitchell"} 3589.0
 dune_status_land{sector="13",username="Allgeist Salusa Secundus"} 3542.0
-dune_status_land{sector="15",username="Allgeist Gangishree"} 3890.0
+dune_status_land{sector="15",username="Allgeist Gangishree"} 3514.0
 dune_status_land{sector="8",username="Jackson"} 2491.0
 dune_status_land{sector="13",username="Allgeist Romo"} 3817.0
 dune_status_land{sector="10",username="Arannoen"} 3758.0
@@ -190,6 +191,7 @@ dune_status_land{sector="6",username="Giedi"} 1333.0
 dune_status_land{sector="9",username="retrofan100"} 677.0
 dune_status_land{sector="6",username="Sonos"} 100.0
 dune_status_land{sector="9",username="pups"} 200.0
+dune_status_land{sector="2",username="Dies Irae"} 3000.0
 # HELP dune_status_sector sector number
 # TYPE dune_status_sector gauge
 dune_status_sector{sector="7",username="Nippel"} 7.0
@@ -274,6 +276,7 @@ dune_status_sector{sector="6",username="Giedi"} 6.0
 dune_status_sector{sector="9",username="retrofan100"} 9.0
 dune_status_sector{sector="6",username="Sonos"} 6.0
 dune_status_sector{sector="9",username="pups"} 9.0
+dune_status_sector{sector="2",username="Dies Irae"} 2.0
 # HELP dune_status_rank sector number
 # TYPE dune_status_rank gauge
 dune_status_rank{sector="7",username="Nippel"} 1.0
@@ -358,3 +361,4 @@ dune_status_rank{sector="6",username="Giedi"} 76.0
 dune_status_rank{sector="9",username="retrofan100"} 78.0
 dune_status_rank{sector="6",username="Sonos"} 81.0
 dune_status_rank{sector="9",username="pups"} 80.0
+dune_status_rank{sector="2",username="Dies Irae"} 40.0
