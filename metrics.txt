@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 1.229587e+06
-python_gc_objects_collected_total{generation="1"} 161862.0
+python_gc_objects_collected_total{generation="0"} 1.233587e+06
+python_gc_objects_collected_total{generation="1"} 164718.0
 python_gc_objects_collected_total{generation="2"} 11652.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -10,15 +10,15 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 658.0
-python_gc_collections_total{generation="1"} 59.0
+python_gc_collections_total{generation="0"} 660.0
+python_gc_collections_total{generation="1"} 60.0
 python_gc_collections_total{generation="2"} 3.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 344.0
+times_run_counter_total 345.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7555844644023056e+09
@@ -130,7 +130,7 @@ dune_status_land{sector="3",username="Bärenfell-Schwingel"} 3040.0
 dune_status_land{sector="5",username="Captain Future"} 4000.0
 dune_status_land{sector="13",username="Allgeist Giedi Prime"} 4174.0
 dune_status_land{sector="2",username="Ako"} 3900.0
-dune_status_land{sector="3",username="Psychedelic Pussycat"} 3209.0
+dune_status_land{sector="3",username="Psychedelic Pussycat"} 2975.0
 dune_status_land{sector="15",username="Allgeist Ipyr"} 3985.0
 dune_status_land{sector="5",username="Lady Oscar"} 4000.0
 dune_status_land{sector="12",username="Allgeist IX"} 3795.0
