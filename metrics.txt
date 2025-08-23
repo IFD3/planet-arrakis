@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 1.341625e+06
-python_gc_objects_collected_total{generation="1"} 176142.0
+python_gc_objects_collected_total{generation="0"} 1.343671e+06
+python_gc_objects_collected_total{generation="1"} 179372.0
 python_gc_objects_collected_total{generation="2"} 16242.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -10,15 +10,15 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 715.0
-python_gc_collections_total{generation="1"} 64.0
+python_gc_collections_total{generation="0"} 716.0
+python_gc_collections_total{generation="1"} 65.0
 python_gc_collections_total{generation="2"} 4.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 375.0
+times_run_counter_total 376.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.7555844644023056e+09
@@ -27,23 +27,23 @@ times_run_counter_created 1.7555844644023056e+09
 dune_status_power{sector="7",username="Nippel"} 1.602401e+06
 dune_status_power{sector="4",username="Kuschelrockliebesliedromantikschallmodul"} 1.267758e+06
 dune_status_power{sector="3",username="Swinguin"} 1.56418e+06
-dune_status_power{sector="4",username="Befriedville"} 1.48843e+06
+dune_status_power{sector="4",username="Befriedville"} 1.49063e+06
 dune_status_power{sector="3",username="Lord SwingAlot"} 1.241827e+06
 dune_status_power{sector="4",username="Rosinenbomber"} 2.009779e+06
-dune_status_power{sector="3",username="Schwingelnatter"} 1.237217e+06
-dune_status_power{sector="8",username="Quinn"} 1.464369e+06
-dune_status_power{sector="4",username="Konfettipistole"} 1.367652e+06
+dune_status_power{sector="3",username="Schwingelnatter"} 1.227774e+06
+dune_status_power{sector="8",username="Quinn"} 1.491381e+06
+dune_status_power{sector="4",username="Konfettipistole"} 1.368427e+06
 dune_status_power{sector="4",username="Herzensbrecher Mk.II"} 1.147333e+06
 dune_status_power{sector="2",username="Riiicholaa"} 1.322314e+06
 dune_status_power{sector="2",username="Sardine"} 1.07679e+06
-dune_status_power{sector="5",username="Inu Yasha"} 1.040399e+06
+dune_status_power{sector="5",username="Inu Yasha"} 1.110334e+06
 dune_status_power{sector="7",username="Ixiria"} 939308.0
 dune_status_power{sector="2",username="mono"} 1.150204e+06
-dune_status_power{sector="2",username="Karol"} 998896.0
+dune_status_power{sector="2",username="Karol"} 1.008246e+06
 dune_status_power{sector="3",username="Bärenfell-Schwingel"} 1.130199e+06
-dune_status_power{sector="5",username="Captain Future"} 973164.0
+dune_status_power{sector="5",username="Captain Future"} 973477.0
 dune_status_power{sector="13",username="Allgeist Giedi Prime"} 893321.0
-dune_status_power{sector="2",username="Ako"} 879656.0
+dune_status_power{sector="2",username="Ako"} 883139.0
 dune_status_power{sector="3",username="Psychedelic Pussycat"} 767422.0
 dune_status_power{sector="15",username="Allgeist Ipyr"} 831326.0
 dune_status_power{sector="5",username="Lady Oscar"} 849853.0
@@ -51,62 +51,62 @@ dune_status_power{sector="12",username="Allgeist IX"} 778304.0
 dune_status_power{sector="11",username="Allgeist Tupile"} 664881.0
 dune_status_power{sector="5",username="Saber Rider"} 850342.0
 dune_status_power{sector="4",username="Partykanone"} 2.04753e+06
-dune_status_power{sector="7",username="Schattenlabore"} 562157.0
+dune_status_power{sector="7",username="Schattenlabore"} 584957.0
 dune_status_power{sector="14",username="Allgeist Naraj"} 661388.0
-dune_status_power{sector="13",username="Allgeist Sikun"} 577911.0
+dune_status_power{sector="13",username="Allgeist Sikun"} 576950.0
 dune_status_power{sector="15",username="Allgeist Ginaz"} 638892.0
-dune_status_power{sector="11",username="Allgeist Gamont"} 776987.0
-dune_status_power{sector="11",username="Allgeist Lampadas"} 554132.0
-dune_status_power{sector="13",username="Allgeist Kaitain"} 673338.0
+dune_status_power{sector="11",username="Allgeist Gamont"} 791833.0
+dune_status_power{sector="11",username="Allgeist Lampadas"} 554149.0
+dune_status_power{sector="13",username="Allgeist Kaitain"} 690744.0
 dune_status_power{sector="13",username="Allgeist Tleilax"} 531284.0
-dune_status_power{sector="10",username="Thoinar"} 505560.0
-dune_status_power{sector="10",username="Elintirn"} 446286.0
-dune_status_power{sector="8",username="Mitchell"} 641191.0
+dune_status_power{sector="10",username="Thoinar"} 505747.0
+dune_status_power{sector="10",username="Elintirn"} 446311.0
+dune_status_power{sector="8",username="Mitchell"} 657603.0
 dune_status_power{sector="13",username="Allgeist Salusa Secundus"} 593891.0
-dune_status_power{sector="15",username="Allgeist Gangishree"} 568298.0
-dune_status_power{sector="8",username="Jackson"} 620640.0
+dune_status_power{sector="15",username="Allgeist Gangishree"} 569440.0
+dune_status_power{sector="8",username="Jackson"} 620940.0
 dune_status_power{sector="13",username="Allgeist Romo"} 600608.0
-dune_status_power{sector="10",username="Arannoen"} 568113.0
+dune_status_power{sector="10",username="Arannoen"} 578805.0
 dune_status_power{sector="12",username="Allgeist Rossak"} 591041.0
 dune_status_power{sector="14",username="Allgeist Chusuk"} 587438.0
-dune_status_power{sector="12",username="Allgeist Buzzell"} 520948.0
+dune_status_power{sector="12",username="Allgeist Buzzell"} 520965.0
 dune_status_power{sector="12",username="Allgeist Gamma Gruis"} 447948.0
 dune_status_power{sector="15",username="Allgeist Kolhar"} 543041.0
 dune_status_power{sector="9",username="Kimalth Prelion"} 553916.0
 dune_status_power{sector="3",username="Luftschloss"} 472576.0
-dune_status_power{sector="10",username="Frankred"} 537901.0
-dune_status_power{sector="14",username="Allgeist Richese"} 534780.0
+dune_status_power{sector="10",username="Frankred"} 539456.0
+dune_status_power{sector="14",username="Allgeist Richese"} 536180.0
 dune_status_power{sector="11",username="Allgeist Bela Tegeuse"} 504765.0
 dune_status_power{sector="9",username="Dies Irae"} 536170.0
 dune_status_power{sector="11",username="Allgeist Muritan"} 374317.0
-dune_status_power{sector="12",username="Allgeist Parmentier"} 575967.0
+dune_status_power{sector="12",username="Allgeist Parmentier"} 580484.0
 dune_status_power{sector="8",username="Carter"} 533351.0
 dune_status_power{sector="15",username="Allgeist Junction"} 399753.0
 dune_status_power{sector="10",username="Sanius"} 412113.0
 dune_status_power{sector="14",username="Allgeist Anbus"} 383869.0
 dune_status_power{sector="12",username="Allgeist Erde"} 363571.0
 dune_status_power{sector="5",username="Galaxy Rangers"} 477220.0
-dune_status_power{sector="11",username="Allgeist Lernaeus"} 272225.0
+dune_status_power{sector="11",username="Allgeist Lernaeus"} 288620.0
 dune_status_power{sector="8",username="Maldoran"} 509669.0
-dune_status_power{sector="14",username="Allgeist Corrin"} 302132.0
+dune_status_power{sector="14",username="Allgeist Corrin"} 302162.0
 dune_status_power{sector="5",username="Detektiv Conan"} 563261.0
 dune_status_power{sector="14",username="Allgeist Gansireed"} 388231.0
 dune_status_power{sector="8",username="Tealc"} 370177.0
 dune_status_power{sector="15",username="Allgeist Poritrin"} 364800.0
 dune_status_power{sector="9",username="Gerato"} 334172.0
 dune_status_power{sector="9",username="Herodot"} 237048.0
-dune_status_power{sector="7",username="KingtingsVandor"} 677560.0
+dune_status_power{sector="7",username="KingtingsVandor"} 662810.0
 dune_status_power{sector="6",username="Sietch Arson"} 160439.0
 dune_status_power{sector="10",username="Thomm"} 117501.0
 dune_status_power{sector="1",username="retrofan100"} 52637.0
-dune_status_power{sector="6",username="Nichtraum"} 59433.0
-dune_status_power{sector="6",username="Haderach"} 75823.0
-dune_status_power{sector="6",username="Gesichtstänzer"} 153107.0
-dune_status_power{sector="6",username="Giedi"} 138027.0
-dune_status_power{sector="9",username="retrofan100"} 54590.0
+dune_status_power{sector="6",username="Nichtraum"} 59795.0
+dune_status_power{sector="6",username="Haderach"} 75838.0
+dune_status_power{sector="6",username="Gesichtstänzer"} 170050.0
+dune_status_power{sector="6",username="Giedi"} 137686.0
+dune_status_power{sector="9",username="retrofan100"} 54611.0
 dune_status_power{sector="6",username="Sonos"} 29526.0
 dune_status_power{sector="9",username="pups"} 37065.0
-dune_status_power{sector="2",username="Dies Irae"} 703713.0
+dune_status_power{sector="2",username="Dies Irae"} 740444.0
 dune_status_power{sector="1",username="Herodot"} 231848.0
 # HELP dune_status_land amount land
 # TYPE dune_status_land gauge
@@ -118,7 +118,7 @@ dune_status_land{sector="3",username="Lord SwingAlot"} 3221.0
 dune_status_land{sector="4",username="Rosinenbomber"} 4072.0
 dune_status_land{sector="3",username="Schwingelnatter"} 3390.0
 dune_status_land{sector="8",username="Quinn"} 3272.0
-dune_status_land{sector="4",username="Konfettipistole"} 3769.0
+dune_status_land{sector="4",username="Konfettipistole"} 3800.0
 dune_status_land{sector="4",username="Herzensbrecher Mk.II"} 4048.0
 dune_status_land{sector="2",username="Riiicholaa"} 3803.0
 dune_status_land{sector="2",username="Sardine"} 4000.0
@@ -187,7 +187,7 @@ dune_status_land{sector="10",username="Thomm"} 1061.0
 dune_status_land{sector="1",username="retrofan100"} 677.0
 dune_status_land{sector="6",username="Nichtraum"} 377.0
 dune_status_land{sector="6",username="Haderach"} 641.0
-dune_status_land{sector="6",username="Gesichtstänzer"} 1664.0
+dune_status_land{sector="6",username="Gesichtstänzer"} 2338.0
 dune_status_land{sector="6",username="Giedi"} 1333.0
 dune_status_land{sector="9",username="retrofan100"} 677.0
 dune_status_land{sector="6",username="Sonos"} 100.0
@@ -285,16 +285,16 @@ dune_status_sector{sector="1",username="Herodot"} 1.0
 dune_status_rank{sector="7",username="Nippel"} 3.0
 dune_status_rank{sector="4",username="Kuschelrockliebesliedromantikschallmodul"} 9.0
 dune_status_rank{sector="3",username="Swinguin"} 4.0
-dune_status_rank{sector="4",username="Befriedville"} 5.0
+dune_status_rank{sector="4",username="Befriedville"} 6.0
 dune_status_rank{sector="3",username="Lord SwingAlot"} 10.0
 dune_status_rank{sector="4",username="Rosinenbomber"} 2.0
 dune_status_rank{sector="3",username="Schwingelnatter"} 11.0
-dune_status_rank{sector="8",username="Quinn"} 6.0
+dune_status_rank{sector="8",username="Quinn"} 5.0
 dune_status_rank{sector="4",username="Konfettipistole"} 7.0
 dune_status_rank{sector="4",username="Herzensbrecher Mk.II"} 13.0
 dune_status_rank{sector="2",username="Riiicholaa"} 8.0
-dune_status_rank{sector="2",username="Sardine"} 15.0
-dune_status_rank{sector="5",username="Inu Yasha"} 16.0
+dune_status_rank{sector="2",username="Sardine"} 16.0
+dune_status_rank{sector="5",username="Inu Yasha"} 15.0
 dune_status_rank{sector="7",username="Ixiria"} 19.0
 dune_status_rank{sector="2",username="mono"} 12.0
 dune_status_rank{sector="2",username="Karol"} 17.0
@@ -305,26 +305,26 @@ dune_status_rank{sector="2",username="Ako"} 21.0
 dune_status_rank{sector="3",username="Psychedelic Pussycat"} 27.0
 dune_status_rank{sector="15",username="Allgeist Ipyr"} 24.0
 dune_status_rank{sector="5",username="Lady Oscar"} 23.0
-dune_status_rank{sector="12",username="Allgeist IX"} 25.0
-dune_status_rank{sector="11",username="Allgeist Tupile"} 31.0
+dune_status_rank{sector="12",username="Allgeist IX"} 26.0
+dune_status_rank{sector="11",username="Allgeist Tupile"} 30.0
 dune_status_rank{sector="5",username="Saber Rider"} 22.0
 dune_status_rank{sector="4",username="Partykanone"} 1.0
-dune_status_rank{sector="7",username="Schattenlabore"} 45.0
+dune_status_rank{sector="7",username="Schattenlabore"} 40.0
 dune_status_rank{sector="14",username="Allgeist Naraj"} 32.0
-dune_status_rank{sector="13",username="Allgeist Sikun"} 40.0
+dune_status_rank{sector="13",username="Allgeist Sikun"} 43.0
 dune_status_rank{sector="15",username="Allgeist Ginaz"} 34.0
-dune_status_rank{sector="11",username="Allgeist Gamont"} 26.0
+dune_status_rank{sector="11",username="Allgeist Gamont"} 25.0
 dune_status_rank{sector="11",username="Allgeist Lampadas"} 46.0
-dune_status_rank{sector="13",username="Allgeist Kaitain"} 30.0
+dune_status_rank{sector="13",username="Allgeist Kaitain"} 29.0
 dune_status_rank{sector="13",username="Allgeist Tleilax"} 52.0
 dune_status_rank{sector="10",username="Thoinar"} 55.0
 dune_status_rank{sector="10",username="Elintirn"} 60.0
 dune_status_rank{sector="8",username="Mitchell"} 33.0
 dune_status_rank{sector="13",username="Allgeist Salusa Secundus"} 37.0
-dune_status_rank{sector="15",username="Allgeist Gangishree"} 42.0
+dune_status_rank{sector="15",username="Allgeist Gangishree"} 44.0
 dune_status_rank{sector="8",username="Jackson"} 35.0
 dune_status_rank{sector="13",username="Allgeist Romo"} 36.0
-dune_status_rank{sector="10",username="Arannoen"} 43.0
+dune_status_rank{sector="10",username="Arannoen"} 42.0
 dune_status_rank{sector="12",username="Allgeist Rossak"} 38.0
 dune_status_rank{sector="14",username="Allgeist Chusuk"} 39.0
 dune_status_rank{sector="12",username="Allgeist Buzzell"} 53.0
@@ -347,19 +347,19 @@ dune_status_rank{sector="5",username="Galaxy Rangers"} 57.0
 dune_status_rank{sector="11",username="Allgeist Lernaeus"} 71.0
 dune_status_rank{sector="8",username="Maldoran"} 54.0
 dune_status_rank{sector="14",username="Allgeist Corrin"} 70.0
-dune_status_rank{sector="5",username="Detektiv Conan"} 44.0
+dune_status_rank{sector="5",username="Detektiv Conan"} 45.0
 dune_status_rank{sector="14",username="Allgeist Gansireed"} 63.0
 dune_status_rank{sector="8",username="Tealc"} 66.0
 dune_status_rank{sector="15",username="Allgeist Poritrin"} 67.0
 dune_status_rank{sector="9",username="Gerato"} 69.0
 dune_status_rank{sector="9",username="Herodot"} 72.0
-dune_status_rank{sector="7",username="KingtingsVandor"} 29.0
-dune_status_rank{sector="6",username="Sietch Arson"} 73.0
+dune_status_rank{sector="7",username="KingtingsVandor"} 31.0
+dune_status_rank{sector="6",username="Sietch Arson"} 74.0
 dune_status_rank{sector="10",username="Thomm"} 76.0
 dune_status_rank{sector="1",username="retrofan100"} 75.0
 dune_status_rank{sector="6",username="Nichtraum"} 78.0
 dune_status_rank{sector="6",username="Haderach"} 77.0
-dune_status_rank{sector="6",username="Gesichtstänzer"} 74.0
+dune_status_rank{sector="6",username="Gesichtstänzer"} 73.0
 dune_status_rank{sector="6",username="Giedi"} 75.0
 dune_status_rank{sector="9",username="retrofan100"} 79.0
 dune_status_rank{sector="6",username="Sonos"} 81.0
