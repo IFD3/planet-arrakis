@@ -1,6 +1,6 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 1.716669e+06
+python_gc_objects_collected_total{generation="0"} 1.720485e+06
 python_gc_objects_collected_total{generation="1"} 228453.0
 python_gc_objects_collected_total{generation="2"} 15808.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
@@ -10,7 +10,7 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 935.0
+python_gc_collections_total{generation="0"} 937.0
 python_gc_collections_total{generation="1"} 85.0
 python_gc_collections_total{generation="2"} 4.0
 # HELP python_info Python platform information
@@ -18,7 +18,7 @@ python_gc_collections_total{generation="2"} 4.0
 python_info{implementation="CPython",major="3",minor="13",patchlevel="3",version="3.13.3"} 1.0
 # HELP times_run_counter_total A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_total counter
-times_run_counter_total 496.0
+times_run_counter_total 497.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
 times_run_counter_created 1.756252844351064e+09
@@ -140,7 +140,7 @@ dune_status_land{sector="11",username="Allgeist Gamont"} 3453.0
 dune_status_land{sector="7",username="KingtingsVandor"} 3700.0
 dune_status_land{sector="10",username="Frankred"} 3698.0
 dune_status_land{sector="2",username="Dies Irae"} 4000.0
-dune_status_land{sector="11",username="Allgeist Tupile"} 3668.0
+dune_status_land{sector="11",username="Allgeist Tupile"} 3216.0
 dune_status_land{sector="14",username="Allgeist Chusuk"} 4339.0
 dune_status_land{sector="12",username="Allgeist Parmentier"} 4358.0
 dune_status_land{sector="13",username="Allgeist Kaitain"} 4226.0
