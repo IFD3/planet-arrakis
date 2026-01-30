@@ -21,7 +21,7 @@ python_info{implementation="CPython",major="3",minor="14",patchlevel="2",version
 times_run_counter_total 1.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
-times_run_counter_created 1.769808784098491e+09
+times_run_counter_created 1.7698090203934174e+09
 # HELP dune_status_power amount power
 # TYPE dune_status_power gauge
 dune_status_power{sector="4",username="Gurgelhals"} 398892.0
