@@ -21,7 +21,7 @@ python_info{implementation="CPython",major="3",minor="14",patchlevel="2",version
 times_run_counter_total 1.0
 # HELP times_run_counter_created A counter that shows how many times the ranks are scraped
 # TYPE times_run_counter_created gauge
-times_run_counter_created 1.7698104511224957e+09
+times_run_counter_created 1.7698104754095762e+09
 # HELP dune_status_power amount power
 # TYPE dune_status_power gauge
 dune_status_power{sector="4",username="Gurgelhals"} 401092.0
@@ -104,9 +104,6 @@ dune_status_power{sector="15",username="Allgeist Richese"} 68299.0
 dune_status_power{sector="7",username="Regina Ellenburg"} 63394.0
 dune_status_power{sector="15",username="Allgeist Korona"} 61576.0
 dune_status_power{sector="10",username="Herbstgrün"} 55061.0
-dune_status_power{sector="14",username="Allgeist Salusa Secundus"} 54048.0
-dune_status_power{sector="16",username="Allgeist Chusuk"} 52861.0
-dune_status_power{sector="7",username="General Model"} 52393.0
 # HELP dune_status_land amount land
 # TYPE dune_status_land gauge
 dune_status_land{sector="4",username="Gurgelhals"} 3250.0
@@ -189,9 +186,6 @@ dune_status_land{sector="15",username="Allgeist Richese"} 1091.0
 dune_status_land{sector="7",username="Regina Ellenburg"} 1212.0
 dune_status_land{sector="15",username="Allgeist Korona"} 800.0
 dune_status_land{sector="10",username="Herbstgrün"} 600.0
-dune_status_land{sector="14",username="Allgeist Salusa Secundus"} 800.0
-dune_status_land{sector="16",username="Allgeist Chusuk"} 800.0
-dune_status_land{sector="7",username="General Model"} 767.0
 # HELP dune_status_sector sector number
 # TYPE dune_status_sector gauge
 dune_status_sector{sector="4",username="Gurgelhals"} 4.0
@@ -274,9 +268,6 @@ dune_status_sector{sector="15",username="Allgeist Richese"} 15.0
 dune_status_sector{sector="7",username="Regina Ellenburg"} 7.0
 dune_status_sector{sector="15",username="Allgeist Korona"} 15.0
 dune_status_sector{sector="10",username="Herbstgrün"} 10.0
-dune_status_sector{sector="14",username="Allgeist Salusa Secundus"} 14.0
-dune_status_sector{sector="16",username="Allgeist Chusuk"} 16.0
-dune_status_sector{sector="7",username="General Model"} 7.0
 # HELP dune_status_rank sector number
 # TYPE dune_status_rank gauge
 dune_status_rank{sector="4",username="Gurgelhals"} 1.0
@@ -359,6 +350,3 @@ dune_status_rank{sector="15",username="Allgeist Richese"} 77.0
 dune_status_rank{sector="7",username="Regina Ellenburg"} 78.0
 dune_status_rank{sector="15",username="Allgeist Korona"} 79.0
 dune_status_rank{sector="10",username="Herbstgrün"} 80.0
-dune_status_rank{sector="14",username="Allgeist Salusa Secundus"} 81.0
-dune_status_rank{sector="16",username="Allgeist Chusuk"} 82.0
-dune_status_rank{sector="7",username="General Model"} 83.0
